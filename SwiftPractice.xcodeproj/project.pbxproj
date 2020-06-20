@@ -73,8 +73,8 @@
 		863112C9249E30A700E01FED /* SwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
-				863112DF249E317D00E01FED /* CountDuplicates */,
 				863112CA249E30A700E01FED /* main.swift */,
+				863112DF249E317D00E01FED /* CountDuplicates */,
 			);
 			path = SwiftPractice;
 			sourceTree = "<group>";
