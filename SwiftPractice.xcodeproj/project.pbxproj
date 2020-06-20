@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		863112CB249E30A700E01FED /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112CA249E30A700E01FED /* main.swift */; };
+		863112DE249E311500E01FED /* CountingDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112DD249E311500E01FED /* CountingDuplicates.swift */; };
+		863112E1249E318F00E01FED /* CountDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112E0249E318F00E01FED /* CountDuplicates.swift */; };
+		863112E2249E318F00E01FED /* CountDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112E0249E318F00E01FED /* CountDuplicates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +28,21 @@
 /* Begin PBXFileReference section */
 		863112C7249E30A700E01FED /* SwiftPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		863112CA249E30A700E01FED /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		863112D5249E30F600E01FED /* AlgosTesting.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgosTesting.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		863112D9249E30F600E01FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863112DD249E311500E01FED /* CountingDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingDuplicates.swift; sourceTree = "<group>"; };
+		863112E0249E318F00E01FED /* CountDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDuplicates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		863112C4249E30A700E01FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863112D2249E30F600E01FED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				863112C9249E30A700E01FED /* SwiftPractice */,
+				863112D6249E30F600E01FED /* AlgosTesting */,
 				863112C8249E30A700E01FED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				863112C7249E30A700E01FED /* SwiftPractice */,
+				863112D5249E30F600E01FED /* AlgosTesting.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,9 +73,27 @@
 		863112C9249E30A700E01FED /* SwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				863112DF249E317D00E01FED /* CountDuplicates */,
 				863112CA249E30A700E01FED /* main.swift */,
 			);
 			path = SwiftPractice;
+			sourceTree = "<group>";
+		};
+		863112D6249E30F600E01FED /* AlgosTesting */ = {
+			isa = PBXGroup;
+			children = (
+				863112D9249E30F600E01FED /* Info.plist */,
+				863112DD249E311500E01FED /* CountingDuplicates.swift */,
+			);
+			path = AlgosTesting;
+			sourceTree = "<group>";
+		};
+		863112DF249E317D00E01FED /* CountDuplicates */ = {
+			isa = PBXGroup;
+			children = (
+				863112E0249E318F00E01FED /* CountDuplicates.swift */,
+			);
+			path = CountDuplicates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +116,23 @@
 			productReference = 863112C7249E30A700E01FED /* SwiftPractice */;
 			productType = "com.apple.product-type.tool";
 		};
+		863112D4249E30F600E01FED /* AlgosTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863112DA249E30F600E01FED /* Build configuration list for PBXNativeTarget "AlgosTesting" */;
+			buildPhases = (
+				863112D1249E30F600E01FED /* Sources */,
+				863112D2249E30F600E01FED /* Frameworks */,
+				863112D3249E30F600E01FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgosTesting;
+			productName = AlgosTesting;
+			productReference = 863112D5249E30F600E01FED /* AlgosTesting.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +144,9 @@
 				ORGANIZATIONNAME = "Evaldas Paulauskas";
 				TargetAttributes = {
 					863112C6249E30A700E01FED = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					863112D4249E30F600E01FED = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
@@ -111,9 +165,20 @@
 			projectRoot = "";
 			targets = (
 				863112C6249E30A700E01FED /* SwiftPractice */,
+				863112D4249E30F600E01FED /* AlgosTesting */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		863112D3249E30F600E01FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		863112C3249E30A700E01FED /* Sources */ = {
@@ -121,6 +186,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				863112CB249E30A700E01FED /* main.swift in Sources */,
+				863112E1249E318F00E01FED /* CountDuplicates.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863112D1249E30F600E01FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863112DE249E311500E01FED /* CountingDuplicates.swift in Sources */,
+				863112E2249E318F00E01FED /* CountDuplicates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +337,42 @@
 			};
 			name = Release;
 		};
+		863112DB249E30F600E01FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 92NU2A4F42;
+				INFOPLIST_FILE = AlgosTesting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowjambo.AlgosTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		863112DC249E30F600E01FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 92NU2A4F42;
+				INFOPLIST_FILE = AlgosTesting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowjambo.AlgosTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -279,6 +390,15 @@
 			buildConfigurations = (
 				863112CF249E30A700E01FED /* Debug */,
 				863112D0249E30A700E01FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		863112DA249E30F600E01FED /* Build configuration list for PBXNativeTarget "AlgosTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863112DB249E30F600E01FED /* Debug */,
+				863112DC249E30F600E01FED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
