@@ -14,6 +14,9 @@
 		863112E5249E754D00E01FED /* PersistentBugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112E4249E754D00E01FED /* PersistentBugger.swift */; };
 		863112E6249E754D00E01FED /* PersistentBugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112E4249E754D00E01FED /* PersistentBugger.swift */; };
 		863112E8249E759E00E01FED /* PersistentBuggerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112E7249E759E00E01FED /* PersistentBuggerTest.swift */; };
+		86B7AB61249F9F140014916D /* CheckForFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B7AB60249F9F140014916D /* CheckForFactor.swift */; };
+		86B7AB63249F9F9D0014916D /* CheckForFactorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B7AB62249F9F9D0014916D /* CheckForFactorTest.swift */; };
+		86B7AB64249FA0A00014916D /* CheckForFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B7AB60249F9F140014916D /* CheckForFactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +40,8 @@
 		863112E0249E318F00E01FED /* CountDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDuplicates.swift; sourceTree = "<group>"; };
 		863112E4249E754D00E01FED /* PersistentBugger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentBugger.swift; sourceTree = "<group>"; };
 		863112E7249E759E00E01FED /* PersistentBuggerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentBuggerTest.swift; sourceTree = "<group>"; };
+		86B7AB60249F9F140014916D /* CheckForFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckForFactor.swift; sourceTree = "<group>"; };
+		86B7AB62249F9F9D0014916D /* CheckForFactorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckForFactorTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				863112C9249E30A700E01FED /* SwiftPractice */,
+				863112CA249E30A700E01FED /* main.swift */,
 				863112D6249E30F600E01FED /* AlgosTesting */,
 				863112C8249E30A700E01FED /* Products */,
 			);
@@ -78,7 +84,7 @@
 		863112C9249E30A700E01FED /* SwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
-				863112CA249E30A700E01FED /* main.swift */,
+				86B7AB5F249F9EEF0014916D /* CheckForFactor */,
 				863112E3249E753400E01FED /* PersistentBugger */,
 				863112DF249E317D00E01FED /* CountDuplicates */,
 			);
@@ -91,6 +97,7 @@
 				863112D9249E30F600E01FED /* Info.plist */,
 				863112DD249E311500E01FED /* CountingDuplicatesTest.swift */,
 				863112E7249E759E00E01FED /* PersistentBuggerTest.swift */,
+				86B7AB62249F9F9D0014916D /* CheckForFactorTest.swift */,
 			);
 			path = AlgosTesting;
 			sourceTree = "<group>";
@@ -109,6 +116,14 @@
 				863112E4249E754D00E01FED /* PersistentBugger.swift */,
 			);
 			path = PersistentBugger;
+			sourceTree = "<group>";
+		};
+		86B7AB5F249F9EEF0014916D /* CheckForFactor */ = {
+			isa = PBXGroup;
+			children = (
+				86B7AB60249F9F140014916D /* CheckForFactor.swift */,
+			);
+			path = CheckForFactor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +218,7 @@
 				863112E5249E754D00E01FED /* PersistentBugger.swift in Sources */,
 				863112CB249E30A700E01FED /* main.swift in Sources */,
 				863112E1249E318F00E01FED /* CountDuplicates.swift in Sources */,
+				86B7AB61249F9F140014916D /* CheckForFactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +230,8 @@
 				863112DE249E311500E01FED /* CountingDuplicatesTest.swift in Sources */,
 				863112E8249E759E00E01FED /* PersistentBuggerTest.swift in Sources */,
 				863112E2249E318F00E01FED /* CountDuplicates.swift in Sources */,
+				86B7AB63249F9F9D0014916D /* CheckForFactorTest.swift in Sources */,
+				86B7AB64249FA0A00014916D /* CheckForFactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
