@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		863112CB249E30A700E01FED /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112CA249E30A700E01FED /* main.swift */; };
-		863112DE249E311500E01FED /* CountingDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112DD249E311500E01FED /* CountingDuplicates.swift */; };
+		863112DE249E311500E01FED /* CountingDuplicatesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112DD249E311500E01FED /* CountingDuplicatesTest.swift */; };
 		863112E1249E318F00E01FED /* CountDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112E0249E318F00E01FED /* CountDuplicates.swift */; };
 		863112E2249E318F00E01FED /* CountDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112E0249E318F00E01FED /* CountDuplicates.swift */; };
+		863112E5249E754D00E01FED /* PersistentBugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112E4249E754D00E01FED /* PersistentBugger.swift */; };
+		863112E6249E754D00E01FED /* PersistentBugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112E4249E754D00E01FED /* PersistentBugger.swift */; };
+		863112E8249E759E00E01FED /* PersistentBuggerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112E7249E759E00E01FED /* PersistentBuggerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,8 +33,10 @@
 		863112CA249E30A700E01FED /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		863112D5249E30F600E01FED /* AlgosTesting.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgosTesting.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		863112D9249E30F600E01FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		863112DD249E311500E01FED /* CountingDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingDuplicates.swift; sourceTree = "<group>"; };
+		863112DD249E311500E01FED /* CountingDuplicatesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingDuplicatesTest.swift; sourceTree = "<group>"; };
 		863112E0249E318F00E01FED /* CountDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDuplicates.swift; sourceTree = "<group>"; };
+		863112E4249E754D00E01FED /* PersistentBugger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentBugger.swift; sourceTree = "<group>"; };
+		863112E7249E759E00E01FED /* PersistentBuggerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentBuggerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				863112CA249E30A700E01FED /* main.swift */,
+				863112E3249E753400E01FED /* PersistentBugger */,
 				863112DF249E317D00E01FED /* CountDuplicates */,
 			);
 			path = SwiftPractice;
@@ -83,7 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				863112D9249E30F600E01FED /* Info.plist */,
-				863112DD249E311500E01FED /* CountingDuplicates.swift */,
+				863112DD249E311500E01FED /* CountingDuplicatesTest.swift */,
+				863112E7249E759E00E01FED /* PersistentBuggerTest.swift */,
 			);
 			path = AlgosTesting;
 			sourceTree = "<group>";
@@ -94,6 +101,14 @@
 				863112E0249E318F00E01FED /* CountDuplicates.swift */,
 			);
 			path = CountDuplicates;
+			sourceTree = "<group>";
+		};
+		863112E3249E753400E01FED /* PersistentBugger */ = {
+			isa = PBXGroup;
+			children = (
+				863112E4249E754D00E01FED /* PersistentBugger.swift */,
+			);
+			path = PersistentBugger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				863112E5249E754D00E01FED /* PersistentBugger.swift in Sources */,
 				863112CB249E30A700E01FED /* main.swift in Sources */,
 				863112E1249E318F00E01FED /* CountDuplicates.swift in Sources */,
 			);
@@ -194,7 +210,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				863112DE249E311500E01FED /* CountingDuplicates.swift in Sources */,
+				863112E6249E754D00E01FED /* PersistentBugger.swift in Sources */,
+				863112DE249E311500E01FED /* CountingDuplicatesTest.swift in Sources */,
+				863112E8249E759E00E01FED /* PersistentBuggerTest.swift in Sources */,
 				863112E2249E318F00E01FED /* CountDuplicates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

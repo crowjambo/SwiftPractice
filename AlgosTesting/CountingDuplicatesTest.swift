@@ -1,7 +1,7 @@
 import XCTest
 @testable import SwiftPractice
 
-class CountingDuplicates: XCTestCase {
+class CountingDuplicatesTest: XCTestCase {
 
     override func setUpWithError() throws {
 
