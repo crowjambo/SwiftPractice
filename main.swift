@@ -1,5 +1,5 @@
 import Foundation
 
 
-PersistentBugger.persistence(for: 99)
+ConsecutiveStrings.longestConsec(["zone", "abigail", "theta", "form", "libe", "zas"], 2)
 
