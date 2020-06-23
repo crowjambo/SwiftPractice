@@ -21,6 +21,9 @@
 		86B7AB68249FA1270014916D /* ConsecutiveStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B7AB66249FA1270014916D /* ConsecutiveStrings.swift */; };
 		86B7AB6A249FA1440014916D /* ConsecutiveStringsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B7AB69249FA1440014916D /* ConsecutiveStringsTest.swift */; };
 		86B7AB6B249FAEF80014916D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112CA249E30A700E01FED /* main.swift */; };
+		86F3A66224A291920035E24F /* RomanNumeralsDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3A66124A291920035E24F /* RomanNumeralsDecoder.swift */; };
+		86F3A66424A291A30035E24F /* RomanNumeralsDecoderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3A66324A291A30035E24F /* RomanNumeralsDecoderTest.swift */; };
+		86F3A66524A291A60035E24F /* RomanNumeralsDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3A66124A291920035E24F /* RomanNumeralsDecoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +51,8 @@
 		86B7AB62249F9F9D0014916D /* CheckForFactorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckForFactorTest.swift; sourceTree = "<group>"; };
 		86B7AB66249FA1270014916D /* ConsecutiveStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsecutiveStrings.swift; sourceTree = "<group>"; };
 		86B7AB69249FA1440014916D /* ConsecutiveStringsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsecutiveStringsTest.swift; sourceTree = "<group>"; };
+		86F3A66124A291920035E24F /* RomanNumeralsDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralsDecoder.swift; sourceTree = "<group>"; };
+		86F3A66324A291A30035E24F /* RomanNumeralsDecoderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralsDecoderTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +95,7 @@
 		863112C9249E30A700E01FED /* SwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				86F3A66024A291700035E24F /* RomanNumeralsDecoder */,
 				86B7AB65249FA1120014916D /* ConsecutiveStrings */,
 				86B7AB5F249F9EEF0014916D /* CheckForFactor */,
 				863112E3249E753400E01FED /* PersistentBugger */,
@@ -106,6 +112,7 @@
 				863112E7249E759E00E01FED /* PersistentBuggerTest.swift */,
 				86B7AB62249F9F9D0014916D /* CheckForFactorTest.swift */,
 				86B7AB69249FA1440014916D /* ConsecutiveStringsTest.swift */,
+				86F3A66324A291A30035E24F /* RomanNumeralsDecoderTest.swift */,
 			);
 			path = AlgosTesting;
 			sourceTree = "<group>";
@@ -140,6 +147,14 @@
 				86B7AB66249FA1270014916D /* ConsecutiveStrings.swift */,
 			);
 			path = ConsecutiveStrings;
+			sourceTree = "<group>";
+		};
+		86F3A66024A291700035E24F /* RomanNumeralsDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				86F3A66124A291920035E24F /* RomanNumeralsDecoder.swift */,
+			);
+			path = RomanNumeralsDecoder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				863112E5249E754D00E01FED /* PersistentBugger.swift in Sources */,
+				86F3A66224A291920035E24F /* RomanNumeralsDecoder.swift in Sources */,
 				863112CB249E30A700E01FED /* main.swift in Sources */,
 				863112E1249E318F00E01FED /* CountDuplicates.swift in Sources */,
 				86B7AB61249F9F140014916D /* CheckForFactor.swift in Sources */,
@@ -244,9 +260,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				863112E6249E754D00E01FED /* PersistentBugger.swift in Sources */,
+				86F3A66424A291A30035E24F /* RomanNumeralsDecoderTest.swift in Sources */,
 				86B7AB6A249FA1440014916D /* ConsecutiveStringsTest.swift in Sources */,
 				86B7AB6B249FAEF80014916D /* main.swift in Sources */,
 				863112DE249E311500E01FED /* CountingDuplicatesTest.swift in Sources */,
+				86F3A66524A291A60035E24F /* RomanNumeralsDecoder.swift in Sources */,
 				863112E8249E759E00E01FED /* PersistentBuggerTest.swift in Sources */,
 				863112E2249E318F00E01FED /* CountDuplicates.swift in Sources */,
 				86B7AB63249F9F9D0014916D /* CheckForFactorTest.swift in Sources */,
