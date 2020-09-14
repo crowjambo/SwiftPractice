@@ -14,6 +14,9 @@
 		863112E5249E754D00E01FED /* PersistentBugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112E4249E754D00E01FED /* PersistentBugger.swift */; };
 		863112E6249E754D00E01FED /* PersistentBugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112E4249E754D00E01FED /* PersistentBugger.swift */; };
 		863112E8249E759E00E01FED /* PersistentBuggerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112E7249E759E00E01FED /* PersistentBuggerTest.swift */; };
+		8670BEE3250FCCA800208DCD /* PartialWordSearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8670BEE2250FCCA800208DCD /* PartialWordSearching.swift */; };
+		8670BEE4250FCCE500208DCD /* PartialWordSearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8670BEE2250FCCA800208DCD /* PartialWordSearching.swift */; };
+		8670BEE6250FCCF100208DCD /* PartialWordSearchingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8670BEE5250FCCF100208DCD /* PartialWordSearchingTest.swift */; };
 		86B7AB61249F9F140014916D /* CheckForFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B7AB60249F9F140014916D /* CheckForFactor.swift */; };
 		86B7AB63249F9F9D0014916D /* CheckForFactorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B7AB62249F9F9D0014916D /* CheckForFactorTest.swift */; };
 		86B7AB64249FA0A00014916D /* CheckForFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B7AB60249F9F140014916D /* CheckForFactor.swift */; };
@@ -47,6 +50,8 @@
 		863112E0249E318F00E01FED /* CountDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDuplicates.swift; sourceTree = "<group>"; };
 		863112E4249E754D00E01FED /* PersistentBugger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentBugger.swift; sourceTree = "<group>"; };
 		863112E7249E759E00E01FED /* PersistentBuggerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentBuggerTest.swift; sourceTree = "<group>"; };
+		8670BEE2250FCCA800208DCD /* PartialWordSearching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialWordSearching.swift; sourceTree = "<group>"; };
+		8670BEE5250FCCF100208DCD /* PartialWordSearchingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialWordSearchingTest.swift; sourceTree = "<group>"; };
 		86B7AB60249F9F140014916D /* CheckForFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckForFactor.swift; sourceTree = "<group>"; };
 		86B7AB62249F9F9D0014916D /* CheckForFactorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckForFactorTest.swift; sourceTree = "<group>"; };
 		86B7AB66249FA1270014916D /* ConsecutiveStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsecutiveStrings.swift; sourceTree = "<group>"; };
@@ -95,6 +100,7 @@
 		863112C9249E30A700E01FED /* SwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				8670BEE1250FCC8E00208DCD /* PartialWordSearching */,
 				86F3A66024A291700035E24F /* RomanNumeralsDecoder */,
 				86B7AB65249FA1120014916D /* ConsecutiveStrings */,
 				86B7AB5F249F9EEF0014916D /* CheckForFactor */,
@@ -113,6 +119,7 @@
 				86B7AB62249F9F9D0014916D /* CheckForFactorTest.swift */,
 				86B7AB69249FA1440014916D /* ConsecutiveStringsTest.swift */,
 				86F3A66324A291A30035E24F /* RomanNumeralsDecoderTest.swift */,
+				8670BEE5250FCCF100208DCD /* PartialWordSearchingTest.swift */,
 			);
 			path = AlgosTesting;
 			sourceTree = "<group>";
@@ -131,6 +138,14 @@
 				863112E4249E754D00E01FED /* PersistentBugger.swift */,
 			);
 			path = PersistentBugger;
+			sourceTree = "<group>";
+		};
+		8670BEE1250FCC8E00208DCD /* PartialWordSearching */ = {
+			isa = PBXGroup;
+			children = (
+				8670BEE2250FCCA800208DCD /* PartialWordSearching.swift */,
+			);
+			path = PartialWordSearching;
 			sourceTree = "<group>";
 		};
 		86B7AB5F249F9EEF0014916D /* CheckForFactor */ = {
@@ -247,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				863112E5249E754D00E01FED /* PersistentBugger.swift in Sources */,
+				8670BEE3250FCCA800208DCD /* PartialWordSearching.swift in Sources */,
 				86F3A66224A291920035E24F /* RomanNumeralsDecoder.swift in Sources */,
 				863112CB249E30A700E01FED /* main.swift in Sources */,
 				863112E1249E318F00E01FED /* CountDuplicates.swift in Sources */,
@@ -269,6 +285,8 @@
 				863112E2249E318F00E01FED /* CountDuplicates.swift in Sources */,
 				86B7AB63249F9F9D0014916D /* CheckForFactorTest.swift in Sources */,
 				86B7AB68249FA1270014916D /* ConsecutiveStrings.swift in Sources */,
+				8670BEE4250FCCE500208DCD /* PartialWordSearching.swift in Sources */,
+				8670BEE6250FCCF100208DCD /* PartialWordSearchingTest.swift in Sources */,
 				86B7AB64249FA0A00014916D /* CheckForFactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
