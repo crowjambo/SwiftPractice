@@ -14,6 +14,9 @@
 		863112E5249E754D00E01FED /* PersistentBugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112E4249E754D00E01FED /* PersistentBugger.swift */; };
 		863112E6249E754D00E01FED /* PersistentBugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112E4249E754D00E01FED /* PersistentBugger.swift */; };
 		863112E8249E759E00E01FED /* PersistentBuggerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863112E7249E759E00E01FED /* PersistentBuggerTest.swift */; };
+		86465AC425118267006D7D00 /* CorrectTimeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86465AC325118267006D7D00 /* CorrectTimeString.swift */; };
+		86465AC52511829F006D7D00 /* CorrectTimeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86465AC325118267006D7D00 /* CorrectTimeString.swift */; };
+		86465AC7251182AA006D7D00 /* CorrectTimeStringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86465AC6251182AA006D7D00 /* CorrectTimeStringTest.swift */; };
 		8670BEE3250FCCA800208DCD /* PartialWordSearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8670BEE2250FCCA800208DCD /* PartialWordSearching.swift */; };
 		8670BEE4250FCCE500208DCD /* PartialWordSearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8670BEE2250FCCA800208DCD /* PartialWordSearching.swift */; };
 		8670BEE6250FCCF100208DCD /* PartialWordSearchingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8670BEE5250FCCF100208DCD /* PartialWordSearchingTest.swift */; };
@@ -50,6 +53,8 @@
 		863112E0249E318F00E01FED /* CountDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDuplicates.swift; sourceTree = "<group>"; };
 		863112E4249E754D00E01FED /* PersistentBugger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentBugger.swift; sourceTree = "<group>"; };
 		863112E7249E759E00E01FED /* PersistentBuggerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentBuggerTest.swift; sourceTree = "<group>"; };
+		86465AC325118267006D7D00 /* CorrectTimeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectTimeString.swift; sourceTree = "<group>"; };
+		86465AC6251182AA006D7D00 /* CorrectTimeStringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectTimeStringTest.swift; sourceTree = "<group>"; };
 		8670BEE2250FCCA800208DCD /* PartialWordSearching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialWordSearching.swift; sourceTree = "<group>"; };
 		8670BEE5250FCCF100208DCD /* PartialWordSearchingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialWordSearchingTest.swift; sourceTree = "<group>"; };
 		86B7AB60249F9F140014916D /* CheckForFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckForFactor.swift; sourceTree = "<group>"; };
@@ -100,6 +105,7 @@
 		863112C9249E30A700E01FED /* SwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				86465AC225118243006D7D00 /* CorrectTimeString */,
 				8670BEE1250FCC8E00208DCD /* PartialWordSearching */,
 				86F3A66024A291700035E24F /* RomanNumeralsDecoder */,
 				86B7AB65249FA1120014916D /* ConsecutiveStrings */,
@@ -120,6 +126,7 @@
 				86B7AB69249FA1440014916D /* ConsecutiveStringsTest.swift */,
 				86F3A66324A291A30035E24F /* RomanNumeralsDecoderTest.swift */,
 				8670BEE5250FCCF100208DCD /* PartialWordSearchingTest.swift */,
+				86465AC6251182AA006D7D00 /* CorrectTimeStringTest.swift */,
 			);
 			path = AlgosTesting;
 			sourceTree = "<group>";
@@ -138,6 +145,14 @@
 				863112E4249E754D00E01FED /* PersistentBugger.swift */,
 			);
 			path = PersistentBugger;
+			sourceTree = "<group>";
+		};
+		86465AC225118243006D7D00 /* CorrectTimeString */ = {
+			isa = PBXGroup;
+			children = (
+				86465AC325118267006D7D00 /* CorrectTimeString.swift */,
+			);
+			path = CorrectTimeString;
 			sourceTree = "<group>";
 		};
 		8670BEE1250FCC8E00208DCD /* PartialWordSearching */ = {
@@ -263,6 +278,7 @@
 			files = (
 				863112E5249E754D00E01FED /* PersistentBugger.swift in Sources */,
 				8670BEE3250FCCA800208DCD /* PartialWordSearching.swift in Sources */,
+				86465AC425118267006D7D00 /* CorrectTimeString.swift in Sources */,
 				86F3A66224A291920035E24F /* RomanNumeralsDecoder.swift in Sources */,
 				863112CB249E30A700E01FED /* main.swift in Sources */,
 				863112E1249E318F00E01FED /* CountDuplicates.swift in Sources */,
@@ -279,6 +295,8 @@
 				86F3A66424A291A30035E24F /* RomanNumeralsDecoderTest.swift in Sources */,
 				86B7AB6A249FA1440014916D /* ConsecutiveStringsTest.swift in Sources */,
 				86B7AB6B249FAEF80014916D /* main.swift in Sources */,
+				86465AC52511829F006D7D00 /* CorrectTimeString.swift in Sources */,
+				86465AC7251182AA006D7D00 /* CorrectTimeStringTest.swift in Sources */,
 				863112DE249E311500E01FED /* CountingDuplicatesTest.swift in Sources */,
 				86F3A66524A291A60035E24F /* RomanNumeralsDecoder.swift in Sources */,
 				863112E8249E759E00E01FED /* PersistentBuggerTest.swift in Sources */,
